@@ -1,0 +1,330 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: gilroy;
+}
+#main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(244,240,237);
+    overflow: hidden;
+    
+}
+#main #nav{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #8d4d4d35; */
+    padding: 0px 20px;
+}
+#nav #left a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: rgb(46, 45, 45);
+    font-size: 15px;
+
+}
+#nav #right a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(46, 45, 45);
+    font-size: 15px;
+
+}
+#mnbox{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 80%;
+    /* background-color: #74434353; */
+}
+@font-face {
+    font-family: kuch-v;
+    src: url(./DRUKWIDE-MEDIUM-TRIAL.OTF)format('truetype');
+}
+#mnbox h1{
+    position: relative;
+    font-family: kuch-v;
+    font-size: 90px;
+    font-weight: 100;
+    margin-left: 100px;
+    top:10%;
+    color: #c3c1c15c;
+    z-index: 99;
+
+}
+#mnbox h3{
+    position: relative;
+    left: 76%;
+    top:10%;
+    font-size: 25px;
+    font-weight: 400;
+}
+#mnbox #tea{
+    display: inline-block;
+    position: relative;
+    /* background-color: red; */
+    left:10%;
+    top: -7%;
+    z-index: 9999;
+
+}
+@font-face {
+    font-family: kuch-vi;
+    src: url(./DRUKWIDE-MEDIUM-TRIAL.OTF)format('truetype');
+}
+#mnbox #tea h2{
+    color: rgb(56, 55, 55);
+    font-size: 140px;
+    font-family: kuch-vi;
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+   
+}
+#mnbox #tea p{
+    width: 60%;
+    color:rgb(82, 76, 76);
+}
+#mnbox #image{
+    position: absolute;
+    width: 25%;
+    height: 70%;
+    /* background-color: black; */
+    right:10px;
+    top: 20%;
+    background-image: url(./images/My\ project\ \(12\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#here button{
+    position: relative;
+    background-color: #c7ce40;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding:10px 40px;
+    box-shadow: 5px 5px 8px  #a3a75b97;
+    left: 40%;
+   
+}
+#line{
+    position: relative;
+    width: 100px;
+    height: 1px;
+    left: 36%;
+    top:-3.5%;
+    background-color: white;
+    z-index: 999999;
+    
+} 
+#page2{
+    position: relative;
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+    background-color: rgb(244,240,237);
+    overflow: hidden;
+    padding: 20px;
+    
+}
+#page2 #pg2{
+    position: relative;
+    padding:0px 40px;
+    width: 100%;
+    height:60vh;
+    /* background-color:rgba(0, 0, 0, 0.174); */
+    display: flex;
+    /* justify-content: space-between; */
+    
+}
+#pg2 #image2{
+    position: relative;
+    width: 20%;
+    height: 55vh;
+    background-image: url(./images/greentea.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: black ; */
+    
+}
+#pg2 #txt{
+    width: 25%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-color: rgba(137, 43, 226, 0.326); */
+    margin: 0px 90px;
+}
+#txt h1 {
+    color: rgb(56, 53, 53);
+    font-weight: 350;
+    font-size: 40px;
+
+}
+#txt li{
+    color: #c7ce40;
+    list-style-type: decimal;
+    font-size: 23px;
+}
+#txt p{
+    color: rgb(78, 74, 74);
+    font-weight: 100;
+    font-size: 13px;
+}
+#pg2 #image3{
+    position: relative;
+    width: 600px;
+    height: 40vh;
+    background-image: url(./images/almond.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    bottom: -30%;
+}
+#page3{
+    position: relative;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(244,240,237);
+}
+#page3 #h1overlay {
+   position: absolute;
+   width: 40%;
+   height: 70%;
+   border: 10px solid black;
+   display: flex;
+   z-index: 999;
+   justify-content: center;
+   overflow: hidden;
+
+}
+
+#page3 #h1 h1{
+    position: relative;
+    font-size: 150px;
+    color: rgba(128, 128, 128, 0.486);
+    letter-spacing: 1rem;
+    font-family: kuch-v;
+    font-weight: 900;
+        background-image: linear-gradient(to left,grey,grey,grey, rgb(173, 173, 46),rgb(173, 173, 46),rgb(173, 173, 46),rgb(173, 173, 46),grey,grey, grey);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+
+}
+#page3 #image2{
+    position: absolute;
+    z-index: 99999;
+    left:50%;
+}
+#h1overlay #txt1{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    /* background-color: rgba(0, 0, 0, 0.29); */
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    bottom: 0;
+}
+#txt1  .circle{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #c7ce40;
+    border-radius: 50%;
+    margin-left: 25px;
+}
+#txt1 .quantity{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color:red; */
+}
+.circle .circle2{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+#txt1 .sqr{
+    width: 40px;
+    height: 20px;
+
+}
+#txt1 h1{
+    font-size: 30px;
+    color:rgb(64, 62, 62) ;
+}
+#txt1 button{
+    position: relative;
+    padding: 3px 15px;
+    background-color:#c7ce40;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 5px 5px 8px  #a3a75b97;;
+}
+#page4{
+    position: relative;
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+    background: linear-gradient(20deg, #c7ce40ed 60%,rgb(244,240,237) 60%); 
+}
+
+#page4 #boxx{
+    position: relative;
+    width: 630px;
+    height: 600px;
+    left:30%;
+    /* background-color: rgba(0, 0, 0, 0.342); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.box img{
+    width: 190px;
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+#page4 .boxxx{
+    position: relative;
+    width: 530px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+    /* background-color: #824444bc; */
+}
+.boxxx .box{
+    width: 150px;
+    height: 250px;
+    /* background-color: #fff; */
+
+}
